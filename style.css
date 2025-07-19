@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f9f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #2e7d32;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+input, select, textarea, button {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    background: #2e7d32;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background: #1b5e20;
+}
+.id-card {
+    border: 2px solid #2e7d32;
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    display: none;
+    text-align: center;
+    background: #fff;
+}
+.id-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.header-green {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2e7d32;
+    color: #fff;
+    padding: 5px;
+}
+.logo {
+    width: 40px;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #666;
+}
